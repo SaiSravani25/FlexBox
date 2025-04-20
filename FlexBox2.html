@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .main{
+            display: flex;
+            background-color:black;
+            color: antiquewhite;
+            width: 100%;
+            justify-content:flex-start;
+            gap: 15px;
+            padding: 20px;
+                                                                    
+        }
+        .main1{
+            position: relative;
+        }
+        .main2{
+            position: absolute;
+           top: 100%;
+           color: aliceblue;
+     }
+     .main3{
+       text-align: center;
+       background-color: lightsalmon;
+     }
+     
+     .main4{
+        border: 5px solid black;
+        background-color: blanchedalmond;
+        display: flex;
+        width: 100%;
+        justify-content:space-evenly;
+       
+        
+     }
+     
+     
+     .img{
+        padding: 20px;
+        
+     }
+    
+     .img1{
+        padding: 20px;
+     }
+     .img2{
+        padding: 20px
+     }
+    .name1{
+        text-align: center;
+       
+    }
+    .name2{
+        text-align: center;
+    }
+    .name3{
+        text-align: center;
+    }
+   
+
+    .name4{
+       text-align: center;
+        
+    }
+    .main6{
+        text-align: center;
+    }
+    .name5{
+        text-align: center;
+        background-color: red;
+        
+    }
+    .main7{
+        text-align: center;
+    }
+    .main8{
+        text-align: center;
+    }
+    .main9{
+        background-color: blanchedalmond;
+        width: 100%;
+        border: 5px solid rgb(95, 88, 88);
+        justify-content: space-between;
+        display: flex;
+    }
+    
+   .img3{
+        padding: 10px;
+    }
+    .img4{
+        padding: 10px;
+
+    }
+    .img5{
+        padding: 10px;
+    }
+    .ticket{
+        background-color: black;
+        color: antiquewhite;
+    }
+    .main10{
+        text-align: center;
+    }
+    .main11{
+        background-color: burlywood;
+        text-align: center;
+    }
+    .main12{
+        background-color: beige;
+        text-align: center;
+
+    }.button{
+        background-color: black;
+        color: darkgrey;
+    }
+    .img6{
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
+    .you{
+        position: absolute;
+        display:inline;
+    }
+
+     </style>
+</head>
+<body>
+    <div class="main">
+        <div>Home</div>
+        <div>Band</div>
+        <div>Tour</div>
+        <div>Contact</div>
+        <div>More</div>
+    </div>
+    <div class="main1">
+        <img src="https://www.w3schools.com/w3images/chicago.jpg" alt="">
+    </div>
+    <div class="main2">
+        <h1>Chicago</h1>
+        <p>Thakyou-chicagoo...</p>
+    </div>
+    <div class="main3"><h1>THE BAND</h1>
+        <h4>We love music</h4>
+    <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+   
+    <div class="main4">
+        <div class="back">
+        <div class="img">
+            <p class="name1">Name</p>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt=""></div>
+            </div>
+        
+        <div class="img1">
+            <p class="name2">Name</p>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt=""></div>
+        <div class="img2">
+             <p class="name3">Name</p>
+             <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt=""></div>
+
+   
+    </div>
+    <div class="main5">
+        <div class="name4">
+        <h1 >TOUR DATES</h1>
+        <p>Remember to book your tickets!</p>
+        </div>
+        <div >
+        <p class="main6"><bold>September:</bold>SoldOut</p>
+                <!--<p class="name8">SoldOut</p>
+                .name{text-align:center;
+                backgroung-color:red;
+                }-->
+                
+        <hr>
+            <p class="main7"> <bold>October:</bold>Sold Out</p>
+        <hr>
+            <p class="main8"><bold>November:</bold>SoldOut</p>
+            
+    </div>
+    </div>
+    <div class="main9">
+        <div class="img3">
+        <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="">
+        <h2>New York</h2>
+        <h4>Fri 27 Nov 2016</h4>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <h2 class="ticket">Buy Tickets</h2>
+    </div >
+    <div class="img4">
+    <img src="https://www.w3schools.com/w3images/paris.jpg" alt="">
+    <h2>Paris</h2>
+    <h4>Sat 28 Nov 2016</h4>
+    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p> 
+    <h2 class="ticket">Buy Tickets</h2>
+
+    </div>
+
+    <div class="img5">
+        <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="">
+        <h2>San Francisco</h2>
+        <h4>Sun 29 Nov 2016</h4>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p> 
+    <h2 class="ticket">Buy Tickets</h2>
+
+    </div>
+        
+</div>
+<div class="main10">
+    <h2>CONTACT</h2>
+    <h4>Fan? Drop a note!</h4>
+</div>
+<div class="main11">
+    <h3>Chicago, US </h3>
+    <h3>Phone: +00 151515</h3>
+    <h3>Email: mail@mail.com</h3>
+</div>
+<div class="main12">
+    <form >
+        <label for="name">Name:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="text">Email:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="name">Message:</label>
+        <input type="text">
+        <br>
+        <br>
+        <button class="button">SEND</button>
+    </form>
+</div>
+<div class="img6">
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="" width="100%">
+    <h2 class="you">Thank you! </h2>
+</div>
+  
+</body>
+</html>
